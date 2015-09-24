@@ -1,7 +1,7 @@
 {
-  "name": "xml-flow",
+  "name": "xml-flow-cdata",
   "version": "0.3.0",
-  "description": "An XML/HTML stream reader, now with less suck.",
+  "description": "An XML/HTML stream reader, now with less suck and CDATA.",
   "main": "lib/xml-flow.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/*.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthewmatician/xml-flow.git"
+    "url": "https://github.com/marcoalbarelli/xml-flow.git"
   },
   "keywords": [
     "xml",
@@ -18,11 +18,12 @@
     "huge files"
   ],
   "author": "Matthew Larson <matthewmatician@gmail.com>",
+  "contributors": ["Marco Albarelli <info@adhocmobile.it"],
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/matthewmatician/xml-flow/issues"
+    "url": "https://github.com/marcoalbarelli/xml-flow-cdata/issues"
   },
-  "homepage": "https://github.com/matthewmatician/xml-flow",
+  "homepage": "https://github.com/marcoalbarelli/xml-flow-cdata",
   "dependencies": {
     "sax": "^0.6.1"
   },
